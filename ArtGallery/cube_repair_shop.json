@@ -1,0 +1,134 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "phone": "123-456-7890"
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "phone": "987-654-3210"
+    },
+    {
+      "id": 3,
+      "name": "Charlie Davis",
+      "phone": "555-123-4567"
+    },
+    {
+      "id": 4,
+      "name": "Oleg",
+      "phone": "3107419187"
+    },
+    {
+      "id": 5,
+      "name": "Ben",
+      "phone": "3603482802"
+    },
+    {
+      "id": 6,
+      "name": "Kima",
+      "phone": "3107419187"
+    },
+    {
+      "id": 7,
+      "name": " Gretta",
+      "phone": "3107419187"
+    }
+  ],
+  "cubes": [
+    {
+      "id": 1,
+      "name": "Speed Cube",
+      "brand": "Rubik's Brand",
+      "type": "3x3"
+    },
+    {
+      "id": 2,
+      "name": "Mirror Cube",
+      "brand": "ShengShou",
+      "type": "3x3"
+    },
+    {
+      "id": 3,
+      "name": "Pyraminx",
+      "brand": "Moyu",
+      "type": "Pyramid"
+    },
+    {
+      "id": 4,
+      "name": "11 M Pro",
+      "brand": "GAN",
+      "type": "3*3"
+    },
+    {
+      "id": 5,
+      "name": "Dino Cube",
+      "brand": "Moyu",
+      "type": "Speed Cube"
+    },
+    {
+      "id": 6,
+      "name": "PEENNY",
+      "brand": "Moyu",
+      "type": "2 * 6"
+    },
+    {
+      "id": 7,
+      "name": "Chimpmunk",
+      "brand": "apple",
+      "type": " 4*2"
+    }
+  ],
+  "work_orders": [
+    {
+      "id": 1,
+      "customer_id": 1,
+      "cube_id": 2,
+      "what_is_wrong": "Stickers peeling off",
+      "estimated_price": 15.0
+    },
+    {
+      "id": 2,
+      "customer_id": 2,
+      "cube_id": 1,
+      "what_is_wrong": "Core mechanism jammed",
+      "estimated_price": 20.0
+    },
+    {
+      "id": 3,
+      "customer_id": 3,
+      "cube_id": 3,
+      "what_is_wrong": "Missing pieces",
+      "estimated_price": 10.0
+    },
+    {
+      "id": 4,
+      "customer_id": 5,
+      "cube_id": 4,
+      "what_is_wrong": "needs lube",
+      "estimated_price": 5.0
+    },
+    {
+      "id": 5,
+      "customer_id": 5,
+      "cube_id": 4,
+      "what_is_wrong": "Broken Tiles",
+      "estimated_price": 5.0
+    },
+    {
+      "id": 6,
+      "customer_id": 6,
+      "cube_id": 6,
+      "what_is_wrong": "Needs Lube",
+      "estimated_price": 10.0
+    },
+    {
+      "id": 7,
+      "customer_id": 7,
+      "cube_id": 7,
+      "what_is_wrong": "piece missing",
+      "estimated_price": 3.0
+    }
+  ]
+}
